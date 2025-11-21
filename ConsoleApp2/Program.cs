@@ -1,8 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!"); 
-    Console.WriteLine("Hello, World!"); 
-    Console.WriteLine("Hello, World!"); 
-    Console.WriteLine("Hello, World!"); 
-    Console.WriteLine("Hello, World!"); 
-    Console.WriteLine("I hate World!");/
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Привет! Как тебя зовут?");
+        string name = Console.ReadLine();
+        Console.WriteLine($"Рад тебя видеть, {name}!");
+    }
+}
